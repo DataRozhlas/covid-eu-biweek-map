@@ -28,7 +28,7 @@ const iso = {
   Sweden: { cz: 'Švédsko ', obyv: 10182291 },
 };
 
-fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv')
+fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv')
   .then((response) => response.text())
   .then((data) => {
     const euData = d3.csvParse(data).filter((v) => {

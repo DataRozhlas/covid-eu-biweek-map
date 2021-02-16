@@ -65,6 +65,7 @@ fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_cov
         href: 'https://github.com/owid/covid-19-data/tree/master/public/data',
       },
       legend: {
+        enabled: false,
       },
       colorAxis: {
         type: 'linear',

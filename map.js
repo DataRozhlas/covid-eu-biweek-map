@@ -52,7 +52,7 @@ fetch('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_cov
       });
     });
 
-    Highcharts.mapChart('container', {
+    Highcharts.mapChart('eu-biweek-map', {
       chart: {
         map: 'custom/europe',
         spacing: [10, 0, 15, 0],
